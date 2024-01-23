@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 20px;
+}
+
+.container {
+  overflow: hidden;
+  border-radius: 8px;
+  min-width: 375px;
+}
+
+img {
+  width: 21%;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  height: 18rem;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  height: 18rem;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  height: 18rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+.learn-more {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+
+.sedans .learn-more {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedans .learn-more:hover {
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs .learn-more {
+  color: hsl(184, 100%, 22%);
+}
+
+.suvs .learn-more:hover {
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury .learn-more {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury .learn-more:hover {
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    height: calc(100% - 20px);
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    max-width: 760px;
+    height: 400px;
+    box-sizing: border-box;
+  }
+}
