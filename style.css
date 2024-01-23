@@ -78,30 +78,33 @@ p {
 
 .sedans .learn-more {
   color: hsl(31, 77%, 52%);
+  border: 1px solid transparent;
 }
 
 .sedans .learn-more:hover {
-  border: 1px solid hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
   background-color: hsl(31, 77%, 52%);
 }
 
 .suvs .learn-more {
   color: hsl(184, 100%, 22%);
+  border: 1px solid transparent;
 }
 
 .suvs .learn-more:hover {
-  border: 1px solid hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
   background-color: hsl(184, 100%, 22%);
 }
 
 .luxury .learn-more {
   color: hsl(179, 100%, 13%);
+  border: 1px solid transparent;
 }
 
 .luxury .learn-more:hover {
-  border: 1px solid hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
   background-color: hsl(179, 100%, 13%);
 }
